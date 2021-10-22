@@ -1,0 +1,21 @@
+<apex:page sidebar="false" showHeader="false">
+    <h1>Hello World</h1>
+    <!-- la vista previa de esta pag se meustra sin estilo Salesforce-->
+
+    <!-- Para poder verlo en contexto de salesforce, vamos a la consola de Chrome y metemos: 
+        $A.get("e.force:navigateToURL").setParams(
+        {"url": "/apex/pageName"}).fire();
+    -->
+
+    <p> This is my first Visualforce page. </p>
+
+    <apex:pageBlock title="A Block Title">
+        <apex:pageBlockSection title="A Section Title">
+            I'm three components deep!
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="A New Section">
+            This is another section.
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+</apex:page>
